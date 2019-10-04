@@ -1,7 +1,7 @@
 {
   "if": {
     "field": "location",
-    "notIn": "[parameters(listOfAllowedLocations')]"
+    "notIn": "[parameters('listOfAllowedLocations')]"
   },
   "then": {
     "effect": "audit"
