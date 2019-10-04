@@ -1,13 +1,12 @@
 {
-  "parameters": {
-    "listOfAllowedLocations": {
-      "type": "Array",
-      "metadata": {
-        "Description": "List of allowd locaitons",
-        "strongType": "location",
-        "displayName": "Allowed Lcoations"
-      }
+  "listOfAllowedLocations": {
+     "type": "Array",
+     "metadata": {
+     "Description": "List of allowd locaitons",
+     "strongType": "location",
+     "displayName": "Allowed Lcoations"
     }
+    
   }
 
 }
